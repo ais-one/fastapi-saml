@@ -23,7 +23,7 @@ https://github.com/ais-one/vue-crud-x/tree/master/docker-devenv/keycloak
 
 **Note:**
 - please follow the names used, e.g. realm is test (appears as Test on Keycloak UI) if not there could be configuration problems
-- replace the "x509cert" with the cert generated in the Keycloak Realm that you created (see **Realm Settings -> Keys** on Keycloak admin UI)
+- Ignore the section on SAML Step 7 as it is already setup, except replace the cert ("x509cert" in main.py) with the cert generated in the Keycloak Realm that you created (see **Realm Settings -> Keys** on Keycloak admin UI)
 - Ignore the section on OIDC setup
 
 ## SAML Sample Application Installation
