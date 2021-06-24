@@ -11,7 +11,7 @@ with less than 100 lines-of-code
 - https://github.com/onelogin/python3-saml
 
 ## Requirements
-- Windows 10 (with bash commands)
+- Windows 10 (with bash commands), if Linux or MacOS, just need to run the commands in Linux way, e.g. / instead of \\
 - Docker
 - Python 3.8+
 
