@@ -9,6 +9,7 @@ with less than 100 lines-of-code
 - https://medium.com/@gohberg/okta-authentication-using-saml-simplified-python-version-74ea9d5b4be7
 - https://fastapi.tiangolo.com/
 - https://github.com/onelogin/python3-saml
+- **Need Not Read This** https://dev.to/zenika/fastapi-saml-on-keycloak-49l6
 
 ## Requirements
 - Windows 10 (with bash commands), if Linux or MacOS, just need to run the commands in Linux way, e.g. / instead of \\

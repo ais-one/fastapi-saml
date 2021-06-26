@@ -72,10 +72,8 @@ async def saml_login(request: Request):
   # errors = saml_settings.validate_metadata(metadata)
   # if len(errors) == 0:
   #   print(metadata)
-  #   return metadata
   # else:
   #   print("Error found on Metadata: %s" % (', '.join(errors)))
-  #   return "error"
   callback_url = auth.login()
   response = RedirectResponse(url=callback_url)
   return response
