@@ -35,7 +35,7 @@ async def prepare_from_fastapi_request(request, debug=False):
     "http_host": request.client.host,
     "server_port": request.url.port,
     "script_name": request.url.path,
-    "post_data": { }
+    "post_data": { },
     "get_data": { }
     # Advanced request options
     # "https": "",
