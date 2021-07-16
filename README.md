@@ -41,7 +41,7 @@ uvicorn main:app --reload --port 3000
 
 With application running, navigate to http://127.0.0.1:3000/api/saml/login on the browser to initiate redirect to IDP
 
-SAML Response is sent to http://127.0.0.1:3000/api/saml/login/callback
+SAML Response is sent to http://127.0.0.1:3000/api/saml/callback
 
 ## API Documentation
 
